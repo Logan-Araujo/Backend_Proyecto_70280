@@ -1,7 +1,6 @@
-import { readByEmail } from "../data/mongo/managers/user.manager.js";
+import { readByEmail } from "../dao/mongo/managers/user.manager.js";
 
 async function isUser(req, res, next) {
-    try {
         const { email } = req.body
         const one = await readByEmail(email)
         if (one) {
@@ -10,9 +9,6 @@ async function isUser(req, res, next) {
             throw error
         }
         return next()
-    } catch (error) {
-        return next(error);
-    }
 }
 
 export default isUser;

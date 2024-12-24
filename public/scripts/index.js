@@ -1,4 +1,4 @@
-const url = "http://localhost:8080/api/sessions/online"
+/*const url = "http://localhost:8080/api/sessions/online"
 const opts = {
     method: "POST",
     headers: { "Content-Type": "application/json", token: localStorage.getItem("token") },
@@ -23,4 +23,4 @@ async function verifyOnline() {
           `
     }
 }
-verifyOnline()
+verifyOnline()*/

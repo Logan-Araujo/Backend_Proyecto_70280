@@ -14,8 +14,11 @@ selector.addEventListener("click", async (event)=>{
         };
         let response = await fetch("/api/sessions/login", options) 
         response = await response.json()
-        localStorage.setItem("token", response.token)
-        alert(response.message)
+        if (response.message === "User logged in successfully") {
+            location.replace("/")
+        } else {
+            alert("Invalid login")
+        }
     } catch (error) {
         alert(error.message)
     }

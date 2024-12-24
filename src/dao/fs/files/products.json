@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Botella de agua 1",
+    "description": "description",
+    "price": 1000,
+    "stock": 10,
+    "_id": "8c3005d80453f51034cd69e9"
+  },
+  {
+    "title": "Botella de agua 1",
+    "description": "description",
+    "price": 1000,
+    "stock": 10,
+    "_id": "778744608d1ae3f5fb335a40"
+  },
+  {
+    "title": "Botella de agua 8",
+    "description": "description",
+    "price": 1000,
+    "stock": 10,
+    "_id": "031eb53a191d0da49f0d78e1"
+  },
+  {
+    "title": "Botella de agua 9",
+    "description": "description",
+    "price": 1000,
+    "stock": 10,
+    "_id": "3c6c4518b348ce98bc3a23ed"
+  },
+  {
+    "_id": "2f7356c929f481b13f676ca7",
+    "title": "Botella de agua 10",
+    "description": "description",
+    "price": 1000,
+    "stock": 10,
+    "category": "botellas",
+    "createdAt": "2024-12-24T00:01:04.964Z",
+    "updatedAt": "2024-12-24T00:01:04.964Z"
+  }
+]
